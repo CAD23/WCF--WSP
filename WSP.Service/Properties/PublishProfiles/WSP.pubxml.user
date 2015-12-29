@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <File Include="bin/Log/日志.txt">
+      <publishTime>09/14/2015 10:34:14</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>08/22/2013 16:46:33</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/16/2014 16:59:36</publishTime>
+    </File>
+    <File Include="bin/WSP.DBUtility.dll">
+      <publishTime>10/29/2015 08:57:00</publishTime>
+    </File>
+    <File Include="bin/WSP.DBUtility.pdb">
+      <publishTime>09/14/2015 10:43:46</publishTime>
+    </File>
+    <File Include="bin/WSP.Service.dll">
+      <publishTime>10/29/2015 08:57:01</publishTime>
+    </File>
+    <File Include="bin/WSP.Service.pdb">
+      <publishTime>09/14/2015 10:43:49</publishTime>
+    </File>
+    <File Include="ComService.svc">
+      <publishTime>08/06/2015 15:16:33</publishTime>
+    </File>
+    <File Include="DataBaseConfig/ComSource.xml">
+      <publishTime>09/30/2015 10:01:25</publishTime>
+    </File>
+    <File Include="DataBaseConfig/MySqlDataSource.xml">
+      <publishTime>10/20/2015 17:12:52</publishTime>
+    </File>
+    <File Include="DataBaseConfig/OraDataSource.xml">
+      <publishTime>09/15/2015 09:51:13</publishTime>
+    </File>
+    <File Include="DataBaseConfig/SqlDataSource.xml">
+      <publishTime>10/26/2015 15:35:03</publishTime>
+    </File>
+    <File Include="DbService.svc">
+      <publishTime>08/06/2015 08:50:32</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>09/17/2015 16:19:26</publishTime>
+    </File>
+    <File Include="Log/日志.txt">
+      <publishTime>09/14/2015 10:34:14</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>10/09/2015 09:07:26</publishTime>
+    </File>
+    <File Include="LogService.svc">
+      <publishTime>03/30/2015 10:21:50</publishTime>
+    </File>
+    <File Include="OraDbService.svc">
+      <publishTime>05/20/2015 18:58:50</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>03/20/2015 09:41:12</publishTime>
+    </File>
+    <File Include="Service2.svc">
+      <publishTime>07/24/2015 15:39:16</publishTime>
+    </File>
+    <File Include="ServicesList.aspx">
+      <publishTime>10/09/2015 09:14:52</publishTime>
+    </File>
+    <File Include="SqlDbService.svc">
+      <publishTime>04/29/2015 09:36:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/23/2015 11:51:18</publishTime>
+    </File>
+    <File Include="WebConfig.aspx">
+      <publishTime>10/29/2015 08:58:07</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>09/17/2015 17:19:47</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

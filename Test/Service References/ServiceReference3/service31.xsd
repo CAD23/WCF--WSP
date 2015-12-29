@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/WSP.DBUtility" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+  <xs:element name="init">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="datasource" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dbtype" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="initResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="initResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTableByProc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WSP.DBUtility" minOccurs="0" name="pas" nillable="true" type="q1:ArrayOfCmdParameter" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTableByProcResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTableByProcResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                </ActualType>
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTableByProcRef">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WSP.DBUtility" minOccurs="0" name="pas" nillable="true" type="q2:ArrayOfCmdParameter" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTableByProcRefResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTableByProcRefResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                </ActualType>
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WSP.DBUtility" minOccurs="0" name="pas" nillable="true" type="q3:ArrayOfCmdParameter" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExcuteProc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/WSP.DBUtility" minOccurs="0" name="pars" nillable="true" type="q4:ArrayOfCmdParameter" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExcuteProcResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ExcuteProcResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CmdParameter">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="paraName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Value" nillable="true" type="xs:anyType" />
+        <xs:element minOccurs="0" name="paramtype" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dbtype" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="size" type="xs:int" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/System.Data" minOccurs="0" name="paramDirection" type="q5:ParameterDirection" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CmdParameterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/WSP.DBUtility" minOccurs="0" name="CmdParameterResult" nillable="true" type="q6:CmdParameter" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDataSetByProc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/WSP.DBUtility" minOccurs="0" name="pas" nillable="true" type="q7:ArrayOfCmdParameter" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDataSetByProcResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDataSetByProcResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                </ActualType>
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataSource>
+  <!--ORACLE的数据库配置文件-->
+  
+  <!--平台数据库-->
+  <item name="PlatFormDB" 
+        value="Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.244)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=ORCL64)));User ID=zjmqbim;Password=zjmqbim;Pooling=true; MAX Pool Size=512;Min Pool Size=50;Connection Lifetime=30;" 
+        text="这是平台数据库" enable="0" canget="1"></item>
+  <item name="BIMDB" 
+        value="Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.244)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=ORCL64)));User ID=zjmqbim;Password=zjmqbim;Pooling=true; MAX Pool Size=512;Min Pool Size=50;Connection Lifetime=30;" 
+        text="这是平台数据库" enable="0" canget="1"></item>
+</DataSource>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataSource>
+  <item name="PlatFormDB" value="server=192.168.1.225;database=COAL3D;User Id=sa;Password=111" dbname="COAL3D" text="这是平台数据库" enable="0" canget="1" />
+  <item name="ModelDB" value="server=192.168.1.225;database=neoVR;User Id=sa;Password=111" dbname="neoVR" text="这是三维模型数据库" enable="0" canget="1" />
+  <item name="CADDB" value="server=192.168.1.225;database=兴无矿;User Id=sa;Password=111" dbname="兴无矿" text="这是CAD数据库" enable="0" canget="1" />
+  <item name="GasDB" value="server=192.168.1.225;database=KJ95;User Id=sa;Password=111" dbname="KJ95" text="这是瓦斯数据库" enable="0" canget="1" />
+  <item name="HRDB" value="server=192.168.1.225;database=BW_HR_db;User Id=sa;Password=111" dbname="BW_HR_db" text="这是人员数据库" enable="0" canget="1" />
+  <item name="LocationDB" value="server=192.168.1.225;database=BW_KJ222;User Id=sa;Password=111" dbname="BW_KJ222" text="这是定位数据库" enable="0" canget="1" />
+  <item name="EMSDB" value="server=192.168.1.225;database=EMS;User Id=sa;Password=111" dbname="EMS" text="这是EMS数据库" enable="0" canget="1" />
+</DataSource>

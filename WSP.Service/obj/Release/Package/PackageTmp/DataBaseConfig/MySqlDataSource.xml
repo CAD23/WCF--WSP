@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataSource>
+  <item name="testDB" value="Server=127.0.0.1;Database=takeout;Uid=root;Pwd=x5; "
+        dbname="COAL3D" text="这是平台数据库" enable="0" canget="1" />
+</DataSource>

@@ -1,0 +1,9 @@
+D:\work\WSP\WSP.Service\bin\WSP.Service.dll
+D:\work\WSP\WSP.Service\bin\WSP.Service.pdb
+D:\work\WSP\WSP.Service\bin\WSP.DBUtility.dll
+D:\work\WSP\WSP.Service\bin\WSP.DBUtility.pdb
+D:\work\WSP\WSP.Service\obj\Debug\WSP.Service.csprojResolveAssemblyReference.cache
+D:\work\WSP\WSP.Service\obj\Debug\WSP.Service.dll
+D:\work\WSP\WSP.Service\obj\Debug\WSP.Service.pdb
+D:\work\WSP\WSP.Service\bin\Newtonsoft.Json.dll
+D:\work\WSP\WSP.Service\bin\MySql.Data.dll

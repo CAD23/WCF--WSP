@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataSource>
+  <item name="节点名称" value="节点值" dbname="节点dbname" text="节点描述" enable="1" canget="1" />
+  <item name="12312312" value="1231" dbname="12" text="13" enable="1" canget="1" />
+  <item name="123" value="323" dbname="" text="" enable="1" canget="1" />
+</DataSource>

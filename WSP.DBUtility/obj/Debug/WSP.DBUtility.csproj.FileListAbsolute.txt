@@ -1,0 +1,6 @@
+D:\work\WSP\WSP.DBUtility\bin\Debug\WSP.DBUtility.dll
+D:\work\WSP\WSP.DBUtility\bin\Debug\WSP.DBUtility.pdb
+D:\work\WSP\WSP.DBUtility\obj\Debug\WSP.DBUtility.dll
+D:\work\WSP\WSP.DBUtility\obj\Debug\WSP.DBUtility.pdb
+D:\work\WSP\WSP.DBUtility\bin\Debug\MySql.Data.dll
+D:\work\WSP\WSP.DBUtility\obj\Debug\WSP.DBUtility.csprojResolveAssemblyReference.cache
